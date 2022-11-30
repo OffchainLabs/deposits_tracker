@@ -67,6 +67,7 @@ const checkDeposits = async (
 
       /** User txn: this is the L2 transaction associated with a deposit that represents the actual l2; i.e., the one the user wants to see/cares about.  
        * Gets emitted only when the L2 side succeeds (either from an autoredeem or from a manual redeem) 
+       * Calculate airdrop based on amount
       
       */
       const userTxnHash = await bridge.calculateL2RetryableTransactionHash(
