@@ -7,7 +7,7 @@
     "@types/node": "^16.4.10",
     "@uniswap/token-lists": "^1.0.0-beta.25",
     "arb-ts": "0.0.40",
-    "axios": "^0.21.4",
+    "axios": "^0.31.0",
     "dotenv": "^10.0.0",
     "eslint": "^7.32.0",
     "ethers": "^5.4.3",
